@@ -1,31 +1,31 @@
 from logic import TruthTable
 
 # 1. not a
-table1 = TruthTable(['a'], ['-a'])
-table1.display()
+table_1 = TruthTable(['a'], ['-a'])
+table_1.display()
 
 print()
 
 # 2. a and b
-table2 = TruthTable(['a', 'b'], ['a and b'])
-table2.display()
+table_2 = TruthTable(['a', 'b'], ['a and b'])
+table_2.display()
 
 print()
 
 # 3. a or b
-table3 = TruthTable(['a', 'b'], ['a or b'])
-table3.display()
+table_3 = TruthTable(['a', 'b'], ['a or b'])
+table_3.display()
 
 print()
 
 # 4. if a then b
-table4 = TruthTable(['a', 'b'], ['a -> b'])
-table4.display()
+table_4 = TruthTable(['a', 'b'], ['a -> b'])
+table_4.display()
 
 print()
 
 # 5. a if and only if b
-table5 = TruthTable(['a', 'b'], ['a <-> b'])
-table5.display()
+table_5 = TruthTable(['a', 'b'], ['a <-> b'])
+table_5.display()
 
 print()
